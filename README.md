@@ -19,8 +19,6 @@ The model is trained for 50 epochs and runs at 87% accuracy.
 Features
 
 Detection of various emotions like [Sad, Angry, Happy, Neutral, Surprise] 
-![pic1](https://github.com/user-attachments/assets/8b7ff822-42ea-45a4-983d-df5635183ff7)
-
 
 Detection of various gestures like [Hello, Thumbsup, Nope, Rock] 
 ![pic2](https://github.com/user-attachments/assets/65f667a8-a78b-4806-b776-eda01a5f07b6)
