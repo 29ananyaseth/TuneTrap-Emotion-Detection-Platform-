@@ -1,6 +1,7 @@
 # TuneTrap-Emotion-Detection-Platform-
 
 About
+-----
 
 This repository demonstrates an end-to-end pipeline for real-time Facial emotion recognition application along with reccommending music based on detected emotions. Done in three steps:
 
@@ -17,7 +18,7 @@ The model is trained for 50 epochs and runs at 87% accuracy.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 Features
-
+--------
 Detection of various emotions like [Sad, Angry, Happy, Neutral, Surprise] 
 
 Detection of various gestures like [Hello, Thumbsup, Nope, Rock] 
@@ -25,6 +26,7 @@ Detection of various gestures like [Hello, Thumbsup, Nope, Rock]
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Dependencies
+------------
 
 This project depends on Python and following packages which can be easily installed through requirements.txt file by running the following command: pip install -r requirements.txt
 
@@ -43,7 +45,7 @@ mediapipe 0.8.10
 ----------------------------------------------------------------------------------------------------------------------------
 
 Instructions
-
+--------------
 Testing Locally
 
 git clone https://github.com/29ananyaseth/TuneTrap-Emotion-Detection-Platform-.
@@ -64,12 +66,15 @@ The app is now running at http://localhost:8501
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Repository Structure
-
+--------------------
 This repository is organised as:
 
 -> app- This file contain the setup of final web app.
+
 -> model- This file contains the trained model.
+
 ->Emotion Detection -This folder contains python scripts to train the model.
+
 -> .streamlit- This folder contains configuration files for the streamlit theme in Web App.
 
 ------------------------------------------------------------------------------------------------------------------------------
